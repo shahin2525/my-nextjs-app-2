@@ -5,35 +5,35 @@
       "category": "Electronics",
       "brand": "Apple",
       "price": 999,
-      "image": "https://example.com/iphone.jpg"
+      "image": "https://i.postimg.cc/xjzMhZVT/kipras-zabeliauskas-71o0-Oni-Lo2w-unsplash.jpg"
     },
     {
       "id": 2,
       "category": "Clothing",
       "brand": "Nike",
       "price": 120,
-      "image": "https://example.com/nike-shoes.jpg"
+      "image": "https://i.postimg.cc/FH9Sfsd7/vivish-photography-4ab-u-Gbwn-GE-unsplash.jpg"
     },
     {
       "id": 3,
       "category": "Appliances",
       "brand": "Samsung",
       "price": 450,
-      "image": "https://example.com/samsung-fridge.jpg"
+      "image": "https://i.postimg.cc/N0Fr4Jxt/lucas-t-wb6dyvkqpyo-unsplash.jpg"
     },
     {
       "id": 4,
       "category": "Accessories",
       "brand": "Rolex",
       "price": 5000,
-      "image": "https://example.com/rolex-watch.jpg"
+      "image": "https://i.postimg.cc/N0Fr4Jxt/lucas-t-wb6dyvkqpyo-unsplash.jpg"
     },
     {
       "id": 5,
       "category": "Furniture",
       "brand": "Ikea",
       "price": 250,
-      "image": "https://example.com/ikea-chair.jpg"
+      "image": "https://i.postimg.cc/rpDKWd8F/pairach-boriboonmee-PDMR0-IUjro-unsplash.jpg"
     }
   ]
 }
