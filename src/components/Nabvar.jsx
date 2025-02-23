@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const Navbar = () => {
+  const pathName = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="bg-gray-900 text-white p-4 shadow-md">
@@ -21,19 +23,47 @@ const Navbar = () => {
             isOpen ? "block" : "hidden"
           }`}
         >
-          <Link href="/about" className="hover:text-gray-400">
+          <Link
+            href="/about"
+            className={
+              pathName === "/about"
+                ? "text-blue-400 underline"
+                : "hover:text-gray-400"
+            }
+          >
             About
           </Link>
-          <Link href="/contact" className="hover:text-gray-400">
+          <Link
+            href="/contact"
+            className={
+              pathName === "/contact"
+                ? "text-blue-400 underline"
+                : "hover:text-gray-400"
+            }
+          >
             Contact
           </Link>
           <Link href="/dashboard" className="hover:text-gray-400">
             Dashboard
           </Link>
-          <Link href="/login" className="hover:text-gray-400">
+          <Link
+            href="/login"
+            className={
+              pathName === "/login"
+                ? "text-blue-400 underline"
+                : "hover:text-gray-400"
+            }
+          >
             Login
           </Link>
-          <Link href="/register" className="hover:text-gray-400">
+          <Link
+            href="/register"
+            className={
+              pathName === "/register"
+                ? "text-blue-400 underline"
+                : "hover:text-gray-400"
+            }
+          >
             Register
           </Link>
         </div>
